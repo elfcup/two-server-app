@@ -4,12 +4,12 @@ var goodPORT = 7000;
 var badPORT = 7500;
 
 function handleRequest1(request, response) {
-	response.end("It works!! Path Hit: " + request.url);
+	response.end("It works!! Path Hit: " + request.url + "You are a smart person!");
 	console.log("You are a smart person!");
 }
 
 function handleRequest2(request, response) {
-	response.end("It works!! Path Hit: " + request.url);
+	response.end("It works!! Path Hit: " + request.url + "You are a dunce cap!");
 	console.log("You are a dunce cap");
 }
 
